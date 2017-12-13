@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    width: 1150px;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 350px;
+    background-color:darkmagenta;
+    
+}
+.header .heading1{
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    border-right: solid 1px darkgray;
+    
+}
+.header .heading1 h2{
+    width: 49%;
+    color: #fff; 
+    font-size: 25px;
+    line-height: 1.5;
+}
+.header .heading1 h2 span:hover{
+    color: #00bc8a;
+    cursor: pointer;
+}
+
+.header .heading2{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-top: 100px;
+    
+    
+}
+.header .heading2 p{
+    color: darkgray;
+    font-family:cursive;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.header .heading2 button{
+    border: none;
+    background: #00bc8a;
+    color: #fff;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    
+}
+
+.mid1{
+    width: 100%;
+    height: 350px;
+    /*background-color: beige;*/
+    border-bottom: solid 1px #DDD;
+    padding-top: 20px;
+    
+}
+.mid1 .learnmore{
+    float: left;
+    width: 50%;
+    border-right: solid 1px #ddd;
+    padding-top: 30px;
+
+}
+.mid1 .learnmore h2{
+    font-family: cursive;
+
+}
+.mid1 .learnmore p{
+    padding-top: 10px;
+    color: #555;
+    line-height: 1.7;
+    
+}
+.mid1 .learnmore button{
+    border:1px solid #ddd;
+    background: #fff;
+    color: #777;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 40px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    
+}
+
+.mid1 .subject{
+    float: left;
+    width: 43%;
+    margin-left: 4%;
+    padding-top: 30px;
+    color: #555;
+    visibility: hidden;
+
+}
+.mid1 .subject p{
+
+    line-height: 1.9;
+}
+.mid1 .subject i{
+    color: #00bc8a;
+    padding-right: 10px;
+}
+
+.mid2{
+    background-color: #f2f2f2;
+    height: 1380px;
+    
+}
+.mid2 .part{
+    height: 400px;
+    width: 100%;
+    /*background-color: burlywood;*/
+    /*margin-top: 25px;*/
+    padding-top: 30px;
+    border-bottom: solid 1px #ddd;
+  
+    
+}
+.mid2 .part .image{
+    width: 40%;
+    height: 400px;
+    float: left;
+    
+}
+.mid2 .part .detail{
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+    
+    
+}
+.mid2 .part .detail h2{
+    color: #777;
+    font-family: fantasy;
+    
+}
+.mid2 .part .detail p{
+    line-height: 1.6;
+    color: #888;
+    
+    
+}
+.mid2 .part .detail button{
+    border:1px solid #ddd;
+    background: #fff;
+    color: #777;
+    font-size: 20px;
+    width: 130px;
+    border-radius: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    
+    
+}
+.mid2 .part .detail button:hover{
+    background-color: dimgray;
+    color: #fff;
+}
+.clear{
+    clear: both;
+}
+
+.contact{
+    width: 100%;
+    height: 460;
+    margin-top:30px;
+	
+    
+}
+.contact .form{
+    float: left;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #ddd;
+}
+.contact .form h2{
+    color: #777;
+    font-family: fantasy;
+    
+}
+.contact .form p{
+    line-height: 1.6;
+    color: #888;
+    
+}
+
+.contact .form input[type=text] ,input[type=email]{
+    width: 240px;
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    outline: 0;
+    font-size: 15px;
+}
+.contact .form textarea{
+    width: 495px;
+    padding-left: 20px;
+    outline: 0;
+    font-size: 15px;
+}
+.contact .form input[type=submit]{
+    border:1px solid #ddd;
+    background: #fff;
+    color: #777;
+    font-size: 22px;
+    width: 180px;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    
+}
+.contact .links{
+    float: left;
+    width: 45%;
+    height: 100%;
+    margin-left: 50px;
+    padding-top: 50px;
+
+}
+
+.contact .links p{
+    line-height: 2.5;
+}
+.contact .links p i{
+    padding-right: 20px;
+    color: #00bc8a;
+    cursor: pointer;
+}
+.footer{
+	width: 100%;
+	height: 100px;
+	border-top: 1px solid #ddd;
+}
+.footer p{
+	text-align: center;
+	color: #777;
+}
+.logform{
+   text-align: center;
+	margin-top: 150px;
+
+}
+
+}
+.logform p{
+	text-align: center;
+}
+.logging{
+	border:1px solid #ddd;
+    background: #fff;
+    color: #777;
+    font-size: 22px;
+    width: 180px;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+	
+}
